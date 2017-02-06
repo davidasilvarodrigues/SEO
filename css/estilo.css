@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  #navbarTopo
+  {
+      position: relative;
+      padding: 50px;
+  }
+  .navbarDir
+  {
+      list-style: none;
+      float: right;
+  }
+  .navbarDir li
+  {
+    font-size: 20px;
+    display: inline-block;
+    color:  #cc00cc;
+  }
+  .logomarca
+  {
+      float: left;
+      color: #cc00cc;
+
+  }
+  .logomarca a
+  {
+    float: left;
+    color: #cc00cc;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .transparenciaFundo
+  {
+    height: 100%;
+    background: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+  }
+  .introHome
+  {
+    text-align: center;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: calc(50% - 300px);
+    top: calc(50% - 100px);
+  }
+  .introHome h1
+  {
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+  }
+  .introHome h3
+  {
+    font-size: 20px;
+    color: pink;
+    margin: 20px;
+  }
+  .introHome a
+  {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #2651a8;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius:20px;
+  }
+  .col-md-4{
+  	width: 33.33%;
+  	float: left;
+  	text-align: center;
+  }
+  #sessao1 {
+  	padding-top: 100px;
+  	padding-bottom: 100px;
+    color:  rgba(204, 153, 255, 0.8);
+  }
+  .introducaoSessaum h2{
+  	font-size: 30px;
+  	font-weight: 300;
+  }
+  .introducaoSessaum h4{
+  	margin-top: 10px;
+  	font-weight: lighter;
+  }
+  .introducaoSessaum{
+  	text-align: center;
+  }
+  .clear{
+  	clear: both;
+  }
+  #sessao1 a{
+  	text-decoration: underline;;
+  	display: inline-block;
+    color:  rgba(204, 153, 255, 0.8);
+  }
+  #sessao1 a:hover{
+  	text-decoration: none;
+  	color: #7FDBFF;
+  }
+  #sessao1 p{
+  	padding-left: 15px;
+  	padding-right: 15px;
+  }
+  #sessao2
+  {
+    background-color: #2651a8;
+    color:  rgba(204, 153, 255, 0.8);
+  }
+  #sessao2 a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    border: 1px solid #2651a8;
+    background-color: #fff;
+    color: #2651a8;
+    padding: 25px 35px;
+    border-radius: 20px;
+  }
+
+  .textoDesc
+  {
+    text-align: center;
+  }
+  .textoDesc h4
+  {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+  }
+  #Pezao
+  {
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: auto;
+    border-top: 1px;
+  }
+  #Pezao p
+  {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.298039);
+  }
+
+
+.img:hover {
+    border: 1px solid #777;
+}
+
+.col-md-4 img {
+    width: 100%;
+    height: auto;
+}
+
+.p-footer {
+	padding-top: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.footer {
+	background: black;
+}
+  html
+  {
+    height: 100%;
+    color:  #e67300;
+    width: 100%;
+    padding-top: 0px;
+  }
+  header
+  {
+    height: 100%;
+    width: 100%;
+    background-image: url("background.jpg");
+    position: relative;
+  }
+  body
+  {
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica';
+  }

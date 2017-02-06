@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Disallow: /css/
+Allow: /css/img

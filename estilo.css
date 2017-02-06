@@ -1,0 +1,28 @@
+.*{
+  font-family: 'Helvetica';
+  padding: 0;
+  margin: 0;
+}
+.linhaNav{
+ position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar{
+  width:1200px;
+  position: relative;
+  margin: 0px auto;
+  padding: 50px;
+  color:  #e67300;
+}
+.sombraNavbar
+{
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+.footer
+{
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+  color: #fff!important;
+  background-color: #000!important
+}
